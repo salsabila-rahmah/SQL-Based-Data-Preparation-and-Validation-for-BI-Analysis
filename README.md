@@ -24,7 +24,7 @@
 Two quarterly sales datasets were consolidated & rebuilt into a controlled analytical layer using SQL. This project focuses on making sure KPIs & profitability analysis are based on structurally sound, logically valid, & statistically controlled data before any BI dashboard is built. All transformations are rule-based & fully traceable. The project covers the full pipeline from raw ingestion to validated output.
 
 - Total processed: 25,234 transactions
-- Final validated dataset: 24,735 transactions → Interactive Tableau Public dashboard built from this dataset [[_VIEW HERE_]](https://public.tableau.com/app/profile/salsabila.rahmah/viz/SalesOverviewSuperstoreOrders20142017/SalesOverviewSuperstoreOrders201420170)
+- Final validated dataset: 24,735 transactions → Interactive Tableau Public dashboard built from this dataset [[_VIEW HERE_]](https://public.tableau.com/views/SalesOverviewSuperstoreOrders20142017/SalesOverviewSuperstoreOrders20142017?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 
