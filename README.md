@@ -6,7 +6,7 @@
 [PROJECT OVERVIEW](#project-overview)
 - [1. Datasets](#1-datasets)
 - [2. Data Quality Metrics](#2-data-quality-metrics)
-- [3. Technical Approach Tools](#3-technical-approach--tools)
+- [3. Technical Approach & Tools](#3-technical-approach--tools)
 
 
 [DATA VALIDATION & MODELING PROCESS](#data-validation--modeling-process)
@@ -114,14 +114,15 @@ Outliers were identified using percentile thresholds (P01/P99) per sub_category.
 
 #### _5. DATA MODELING_
 
-The ERD was designed after cleaning & validation were completed. The final structure follows a star-schema approach & supports BI reporting ([_see figure_](https://github.com/user-attachments/assets/d0a11b36-4842-4b23-95ed-7d031664c8e4)). Fact & dimension tables were built from the validated dataset to ensure:
+The ERD was designed after cleaning & validation were completed. The final structure follows a star-schema approach & supports BI reporting ([_see figure_](https://github.com/salsabila-rahmah/SQL-Based-Data-Preparation-and-Validation-for-BI-Analysis/blob/main/ERD%20diagram.jpeg)). Fact & dimension tables were built from the validated dataset to ensure:
 
 - Clean transactional grain
 - Standardized dimensions
 - Consistent product identifiers
 - No duplicate or logically invalid records
 
-<img width="1289" height="814" alt="image" src="https://github.com/user-attachments/assets/d0a11b36-4842-4b23-95ed-7d031664c8e4" />
+<img width="1289" height="814" alt="image" src="https://github.com/salsabila-rahmah/SQL-Based-Data-Preparation-and-Validation-for-BI-Analysis/blob/main/ERD%20diagram.jpeg" />
+
 
 
 
