@@ -333,10 +333,10 @@ GROUP BY
 ---------------------------------------------------------------------------
 
 ---| Change directory (cd) ke folder spesifik "2. export csv"
-PS D:\Salsa\OneDrive\SQL_Files> cd "D:\Salsa\OneDrive\SQL_Files\PORTOFOLIO\Project1\2. export csv"
+PS D:\...........\2. export csv"
 
 ---| Open database "DB1_Project1.db" yang ada di folder lain
-PS D:\Salsa\OneDrive\SQL_Files\PORTOFOLIO\Project1\2. export csv> sqlite3 "D:\Salsa\OneDrive\SQL_Files\PORTOFOLIO\Project1\DB1_Project1.db"
+PS D:\...........\DB1_Project1.db"
 
 ---| Export csv untuk VIEW v_orders_analysis_ready
 .mode csv
