@@ -13,7 +13,7 @@ SELECT * FROM clean_superstore_orders;
 ---/ TAHAP 0 — PERSIAPAN
 
 ---| Import file csv to databases
-sqlite3 "D:\Salsa\OneDrive\SQL_Files\PORTOFOLIO\Project1\DB1_Project1.db"
+sqlite3 "D:\...........\DB1_Project1.db"
 .databases
 .tables
 .mode csv
@@ -21,9 +21,9 @@ sqlite3 "D:\Salsa\OneDrive\SQL_Files\PORTOFOLIO\Project1\DB1_Project1.db"
 
 --- The folder path (D:/......./Superstore_Orders_q1.csv) depends on where you save them
 
-.import "D:/Salsa/OneDrive/SQL_Files/PORTOFOLIO/Project1/Superstore_Orders_q1.csv" csv1
-.import "D:/Salsa/OneDrive/SQL_Files/PORTOFOLIO/Project1/Superstore_Orders_q2.csv" csv2
-.import "D:/Salsa/OneDrive/SQL_Files/PORTOFOLIO/Project1/raw_state_city.csv" raw_state_city
+.import "D:/.........../Superstore_Orders_q1.csv" csv1
+.import "D:/.........../Superstore_Orders_q2.csv" csv2
+.import "D:/.........../raw_state_city.csv" raw_state_city
 
 
 .schema csv1
